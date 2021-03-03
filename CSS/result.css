@@ -1,0 +1,145 @@
+body{
+    background: black;
+    color: white;
+}
+
+.wrap{
+    width: 90%;
+    margin: 3% auto;
+}
+
+.container{
+    text-align: center;
+}
+
+.wrap > h1{
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score > h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.score-board{
+    margin-top: 20px;
+    background: linear-gradient(to right, rgb(26, 24, 24),rgba(165, 42, 42, .85),rgb(26, 24, 24));
+    padding: 30px 50px;
+    border-radius: 10px 10px 130px 130px;
+    width: 150px;
+    text-align: center;
+    font-family: monospace;
+    border: 1.5px solid rgb(65, 7, 7);
+}
+
+.score-board:hover{
+    box-shadow: -5px -5px 30px brown;
+}
+
+#mrk{
+    letter-spacing: 5px;
+}
+
+#tot-score{
+    font-size: 22px;
+}
+
+.result{
+    font-family: cursive;
+}
+
+.percentage{
+    color: yellowgreen;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.score div{
+    margin: 20px;
+}
+
+#your-score{
+    font-family: monospace;
+    font-size: 40px;
+}
+
+#btn{
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    background: rgb(223, 223, 9);
+    color: black;
+    border-radius: 5px;
+    font-size: larger;
+    font-family: cursive;
+    transition: all .3s ease-in-out;
+}
+
+#btn:hover{
+    background: tomato;
+    color: white;
+}
+
+.progress{
+    display: none;
+}
+
+.myProgress{
+    display: flex;
+    flex-direction: column;
+    background: rgba(128, 128, 128, .3);
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+.prog-report{
+    display: flex;
+}
+
+
+.prog-result:hover{
+    background: rgb(15, 14, 14);
+}
+
+.col{
+    padding: 20px;
+    flex: 1;
+}
+
+.prog-head{
+    font-family: sans-serif;
+    font-size: 19px;
+    border-bottom: 1px solid wheat;
+    border-radius: 15px;
+    color: rgb(207, 204, 204);
+    background: rgb(59, 58, 58);
+    text-align: center;
+}
+
+.prog-head .col{
+    border-right: 1px solid wheat;
+    border-radius: 15px;
+}
+
+.prog-result{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(199, 134, 12);
+    border-radius: 15px;
+}
+
+.prog-result .col{
+    border-right: 1px solid rgb(199, 134, 12);
+    border-radius: 15px;
+}
+
+.col:first-child, .col:last-child{
+    text-align: center;
+    flex: .3;
+}

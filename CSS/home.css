@@ -1,0 +1,64 @@
+body{
+    background: black;
+}
+
+.wrap{
+    width: 80%;
+    margin: 3% auto;
+    color: white;
+}
+
+.content{
+   padding: 10px 30px;
+   background: rgba(80, 79, 79, .6);
+   border-radius: 5px;
+}
+
+#user-name{
+    font-family: cursive;
+    font-size: larger;
+    /* font-size: 30px; */
+}
+
+#selected-topic-1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+.description{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+#desc{
+    border-left: whitesmoke 3px solid;
+    padding-left: 17px;
+    border-radius: 3px;
+}
+
+.button{
+    padding: 18px;
+}
+
+.btn{
+    padding: 18px 30px;
+    border: none;
+    border-radius: 17px;
+    background: white;
+    font-size: 17px;
+    font-weight: bolder;
+    outline: none;
+    transition: .4s ease-in-out;
+}
+
+.btn:hover{
+    background: tomato;
+    color: white;
+    cursor: pointer;
+}
+
+#nav{
+    font-size: larger;
+    /* color: green; */
+}

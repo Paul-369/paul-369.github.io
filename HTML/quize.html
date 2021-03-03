@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quize</title>
+    <link rel="stylesheet" href="../CSS/quize.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="head">
+            <h1 id="title">You want to complete <span id="noOfQuize"></span> quizes</h1>
+            <h2 id="timer">Starting..</h2>
+        </div>
+
+        <div class="q-wrap">
+            <div class="qstnNo">
+                <h3 id="current-qstn"></h3>
+            </div>
+    
+            <div class="quize-wrapp">
+    
+                <div id="quize-1" class="quize">
+                    
+                    <div class="question" id="q1"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="q1-ans-1" class="qFirst"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="q1-ans-2" class="qFirst"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="q1-ans-3" class="qFirst"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="q1-ans-4" class="qFirst"></span>
+                        </div>
+    
+                    </div>
+                </div>
+    
+                <div id="quize-2" class="quize">
+                    
+                    <div class="question" id="q2"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="q2-ans-1" class="qTwo"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="q2-ans-2" class="qTwo"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="q2-ans-3" class="qTwo"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="q2-ans-4" class="qTwo"></span>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div id="quize-3" class="quize">
+                    
+                    <div class="question" id="q3"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="q3-ans-1" class="qThree"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="q3-ans-2" class="qThree"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="q3-ans-3" class="qThree"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="q3-ans-4" class="qThree"></span>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div id="quize-4" class="quize">
+                    
+                    <div class="question" id="q4"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="q4-ans-1" class="qFour"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="q4-ans-2" class="qFour"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="q4-ans-3" class="qFour"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="q4-ans-4" class="qFour"></span>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div id="quize-5" class="quize">
+                    
+                    <div class="question" id="q5"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="q5-ans-1" class="qFive"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="q5-ans-2" class="qFive"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="q5-ans-3" class="qFive"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="q5-ans-4" class="qFive"></span>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div id="quize-6" class="quize">
+                    
+                    <div class="question" id="q6"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="q6-ans-1" class="qSix"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="q6-ans-2" class="qSix"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="q6-ans-3" class="qSix"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="q6-ans-4" class="qSix"></span>
+                        </div>
+    
+                    </div>
+                </div>
+
+                <div id="quize-last" class="quize">
+                    
+                    <div class="question" id="q-last"></div>
+    
+                    <div class="multi-choice">
+    
+                        <div class="ch-1 choice" onclick="test(event)">
+                            <span id="qLast-ans-1" class="qLast"></span>
+                        </div>
+    
+                        <div class="ch-2 choice" onclick="test(event)">
+                            <span id="qLast-ans-2" class="qLast"></span>
+                        </div>
+    
+                        <div class="ch-3 choice" onclick="test(event)">
+                            <span id="qLast-ans-3" class="qLast"></span>
+                        </div>
+    
+                        <div class="ch-4 choice" onclick="test(event)">
+                            <span id="qLast-ans-4" class="qLast"></span>
+                        </div>
+    
+                    </div>
+                </div>    
+    
+                <div class="controls">
+                    <div class="btn">
+                        <button onclick="navQuize('prevQuize')" id="prev-btn" class="button">&lt;&lt; Prev</button>
+                    </div>
+
+                    <div class="right">
+                        <div class="btn">
+                            <button onclick="navQuize('nextQuize')" id="next-btn" class="button" disabled>Next &gt;&gt;</button>
+                        </div>
+            
+                        <div class="btn">
+                            <button onclick="result(event)" id="result-btn" class="result-btn" disabled>Show Result</button>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/quize.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <div class="wrap">
+
+        <h1>Register your Quiz</h1>
+
+        <div class="frm">
+            <form action="" onsubmit="return navigateToHome()">
+                <div class="frm-wrap">
+                    <div class="name input">
+                        <label for="">Name</label>
+                        <input type="text" name="" id="name" required>
+                    </div>
+                    
+                    <div class="email input">
+                        <label for="">Email</label>
+                        <input type="email" name="" id="email" required>
+                    </div>
+                    
+                    <div class="mob input">
+                        <label for="">Mobile Num</label>
+                        <input type="number" name="" id="mob" required>
+                    </div>
+                    
+                    <div class="topic input">
+                        <label for="">Topic</label>
+                        <select name="" id="topic" required>
+                            <option value="--select--">--select--</option>
+                            <option value="DESIGNING">DESIGNING</option>
+                            <option value="DEVELOPMENT">DEVELOPMENT</option>
+                            <option value="TESTING">TESTING</option>
+                        </select>
+                    </div>
+                    <div id="warn"></div>
+                    
+                    <div class="age input">
+                        <label for="">Age</label>
+                        <input type="number" name="" id="age" required>
+                    </div>
+            
+                    <div class="button">
+                        <button type="submit" id = "go" class="btn">GO</button>
+                    </div>
+                </div>
+        
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
