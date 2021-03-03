@@ -14,7 +14,7 @@ var originalAnswers = {
         "B. Structure chart",
         "D. All of the above",
         "D. Quality",
-        "A. trlanslate",
+        "A. translate",
         "A. First image",
         "A. Data flow"
     ],
